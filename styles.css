@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+h2 {
+    text-align: center;
+    color: #e6005c;
+}
+
+.option {
+    border: 1px solid #e6005c;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    position: relative;
+}
+
+.option input {
+    margin-right: 10px;
+}
+
+.option label {
+    display: flex;
+    flex-direction: column;
+}
+
+.unit-title {
+    font-weight: bold;
+}
+
+.discount {
+    background: #e6005c;
+    color: white;
+    padding: 2px 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.price {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.price del {
+    color: grey;
+    font-size: 12px;
+}
+
+.popular {
+    background-color: #ffeeef;
+    border: 2px solid #e6005c;
+}
+
+.popular-tag {
+    background: #e6005c;
+    color: white;
+    padding: 2px 8px;
+    font-size: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.selection {
+    margin-top: 10px;
+    display: none;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.free-delivery {
+    color: #e6005c;
+    font-weight: bold;
+}
+
+.total {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cart-btn {
+    background: #e6005c;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
